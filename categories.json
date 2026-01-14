@@ -1,0 +1,68 @@
+{
+  "Technology": [
+    "Software",
+    "Hardware",
+    "AI & Machine Learning",
+    "Cloud Computing",
+    "Cyber Security"
+  ],
+  "Finance": [
+    "Banking",
+    "Insurance",
+    "Investment",
+    "Taxation"
+  ],
+  "Healthcare": [
+    "Hospitals",
+    "Pharmacy",
+    "Diagnostics",
+    "Fitness & Wellness"
+  ],
+  "Education": [
+    "School",
+    "College",
+    "Online Courses",
+    "Certifications"
+  ],
+  "Business": [
+    "Startup",
+    "Enterprise",
+    "Marketing",
+    "Sales"
+  ],
+  "Entertainment": [
+    "Movies",
+    "OTT Platforms",
+    "Music",
+    "Games",
+    "Events"
+  ],
+  "Clothing": [
+    "Men",
+    "Women",
+    "Kids",
+    "Footwear",
+    "Accessories"
+  ],
+  "Groceries": [
+    "Fruits & Vegetables",
+    "Dairy Products",
+    "Snacks",
+    "Beverages",
+    "Household Essentials"
+  ],
+  "Travel": [
+    "Flights",
+    "Hotels",
+    "Cabs",
+    "Tours",
+    "Fuel"
+  ],
+  "Utilities": [
+    "Electricity",
+    "Water",
+    "Gas",
+    "Internet",
+    "Mobile Recharge"
+  ]
+}
