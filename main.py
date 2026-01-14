@@ -9,7 +9,7 @@ import sqlite3
 from datetime import datetime
 import os,sys
 
-BASE_DIR = r"D:\MCPPratical"
+BASE_DIR = r"D:\MCPRemoteServer"
 os.makedirs(BASE_DIR, exist_ok=True)
 
 DB_PATH = os.path.join(BASE_DIR, "expenses.db")
@@ -29,8 +29,7 @@ def get_connection():
 
 # Create table
 # ---------------------------
-@mcp.tool(name="create_Table_tool",description="this fuction will create table in database")
-def create_table():
+def create_table_internal():
     conn = get_connection() #establishing connection btn python and sqlite3
     
     #cursor object will execute the command for me with help of connection
@@ -56,7 +55,14 @@ def create_table():
 
 
 #calling fxn to create tables in database
-create_table()
+@mcp.tool(
+    name="create_Table_tool",
+    description="Create expenses table if not exists"
+)
+def create_table():
+    create_table_internal()
+    return {"status": "table_ready"}
+
 
 
 
